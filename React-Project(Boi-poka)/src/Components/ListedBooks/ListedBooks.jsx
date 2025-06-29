@@ -3,7 +3,7 @@ import { useLoaderData } from "react-router";
 import { Tab, Tabs, TabList, TabPanel } from "react-tabs";
 import "react-tabs/style/react-tabs.css";
 import Book from "../Book/Book";
-import { getStoredReadList } from "../utility/db";
+import { getStoredReadList } from "../../utility/db";
 
 const ListedBooks = () => {
   const [readList, setReadList] = useState([]);
